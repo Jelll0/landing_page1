@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+}
+
+#logo {
+    font-weight: bolder;
+    padding-left: 80px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin-left: auto;
+    padding-right: 80px;
+}
+
+.links {
+    text-decoration: none;
+    color:white;
+}
+
+.intro {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    padding: 80px;
+    justify-content: center;
+    gap: 25px;
+}
+
+.intro-left{
+    display: block;
+    width:500px;
+}
+
+button {
+    padding: 5px 20px 5px 20px;
+    background-color: #3882F6;
+    color: white;
+    /* border: 0px; */
+    border-radius: 5px;
+}
+
+#intro-pic {
+    width: 500px;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    font: 36px;
+}
+
+.info-img {
+    width: 100px;
+}
+
+.info-peices {
+    text-align: center;
+    max-width: 150px;
+}
+
+.peices {
+    display: flex;
+    justify-content: center;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+#author {
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.modams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modam {
+    display: flex;
+    background-color:#3882F6;
+    margin: 40px;
+    padding: 10px 90px 10px 90px;
+    border-radius: 10px;
+    color: white;
+}
+
+#modam-button {
+    border-color: white;
+    height: min-content;
+}
